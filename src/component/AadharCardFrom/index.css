@@ -1,0 +1,76 @@
+.aadhaar-form-container {
+    width: 40%;
+    margin: 1rem auto;
+    border: 1px solid #ccc;
+  }
+  .aadhaar-form-heading{
+    height: 40px;
+    background: linear-gradient(119.54deg, #000046 0%, #1cb5e0 100%);
+    text-align: center;
+    align-content: center;
+    color: white;
+  }
+  .form-container{
+      padding: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  textarea {
+    width: -webkit-fill-available;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    background: linear-gradient(119.54deg, #000046 0%, #1cb5e0 100%);
+  }
+  
+  button:hover {
+    background: linear-gradient(119.54deg, #05053b 0%, #20809b 100%);
+  }
+  .form-download-aadhaar{
+    margin: 1rem 0px 0px 0px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    color:#000046;
+  }
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  
+@media (max-width: 600px){
+    .aadhaar-form-container {
+        width: auto;
+        margin: 1rem;
+      }
+}

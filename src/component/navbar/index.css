@@ -1,0 +1,49 @@
+ 
+  .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5px 20px; 
+    margin: 0px 75px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; 
+  }
+  
+  .navbar-nav {
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 10px; 
+    cursor: pointer;
+  }
+  
+  .nav-item:hover {
+    text-decoration: underline; 
+  }
+  .nav-gradient{    
+    height: 40px;
+    background: linear-gradient(119.54deg, #000046 0%, #1cb5e0 100%);
+  }
+  
+  @media (max-width: 600px){
+    .container {
+        padding: 5px; 
+        margin: 0px;
+      }
+      .navbar-brand img{
+        width: 200px;
+      }
+      .nav-item{
+        width: 80px;
+      }
+      .navbar-nav li{
+        display: none;
+      }
+  }
