@@ -25,10 +25,10 @@ jobs:
         run: npm run build
 
       - name: Package Windows EXE with Electron
-        run: npm run dist
+        run: npm run make
 
       - name: Upload EXE artifact
         uses: actions/upload-artifact@v4
         with:
           name: windows-exe
-          path: dist/
+          path: out/
