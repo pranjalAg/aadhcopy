@@ -38,7 +38,7 @@
     ]
   },
   "devDependencies": {
-    "electron": "^37.2.3",
+    "electron": "^28.1.0",
     "electron-builder": "^26.0.12"
   },
   "main": "main.js",
