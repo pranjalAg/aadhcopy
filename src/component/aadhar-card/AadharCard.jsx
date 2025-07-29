@@ -33,9 +33,9 @@ const AadharCard = (formData) => {
   return (
     <>
       <div className="front-container" style={{ marginTop: "6rem" }}>
-        <div className="front-nav" style={{ width: '100%', height: '1.6rem' }}>
+        <div className="front-nav" style={{ width: '100%', height: '2.5rem' }}>
           <img src={Lion} alt="lion" />
-          <div className="front-nav-txt" style={{ maxWidth: '64%' }}>
+          <div className="front-nav-txt" style={{ maxWidth: '66%' }}>
             <img src={FrontHeader} alt="front_head" style={{ maxWidth: '-webkit-fill-available' }} />
           </div>
           <img src={Logo} alt="logo" />
@@ -61,7 +61,7 @@ const AadharCard = (formData) => {
           {/* <img src={QrCode} alt="QrCode" className="front-qrcode" /> */}
         </div>
         <div className="front-footer">
-          <p style={{padding: '4px 0', fontSize: '14px', fontWeight: '600'}}>{formatId(data.aadhar)}</p>
+          <p style={{padding: '4px 0', fontSize: '14px', fontWeight: '700'}}>{formatId(data.aadhar)}</p>
           {/* <hr className="dotted" /> */}
           {/* <p style={{padding: '0 0 4px 0'}}>VID: {formatId(random)}</p> */}
           <hr className="end"/>
@@ -71,16 +71,16 @@ const AadharCard = (formData) => {
         </div>
       </div>
       {/* back */}
-      <div className="front-container" style={{ marginTop: "16rem" }}>
-        <div className="front-nav" style={{ width: '100%', height: '1.6rem' }}>
+      <div className="front-container" style={{ marginTop: "8rem" }}>
+        <div className="front-nav" style={{ width: '100%', height: '2.5rem' }}>
           <img src={Lion} alt="lion" />
-          {/* <div className="front-nav-txt" style={{ maxWidth: '64%' }}> */}
-          <img src={BackHeader} alt="back_head" style={{ maxWidth: '-webkit-fill-available' }}/>
-          {/* </div> */}
+          <div className="front-nav-txt" style={{ maxWidth: '66%' }}>
+            <img src={BackHeader} alt="back_head" style={{ maxWidth: '-webkit-fill-available' }}/>
+          </div>
           <img src={Logo} alt="logo" />
         </div>
         <div className="back-details-container">
-          <div className="back-details">
+          <div className="back-details" style={{ paddingRight: '8px' }}>
             {data.addressHindi && <p style={{ marginBottom: '4px' }}>
               <b>पता:</b>
               <br /> {data.addressHindi}
@@ -93,7 +93,7 @@ const AadharCard = (formData) => {
           <img src={QrCode} alt="QrCode" className="back-qrcode" />
         </div>
         <div className="front-footer">
-          <p style={{padding: '4px 0', fontSize: '14px', fontWeight: '600'}}>{formatId(data.aadhar)}</p>
+          <p style={{padding: '4px 0', fontSize: '14px', fontWeight: '700'}}>{formatId(data.aadhar)}</p>
           {/* <hr className="dotted" /> */}
           {/* <p style={{padding: '0 0 4px 0'}}>VID: {formatId(random)}</p> */}
           <hr className="end"/>

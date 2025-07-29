@@ -1,9 +1,10 @@
 .front-container{
-    width: 18rem;
-    height: 10.5rem;
+    width: 20rem;
+    height: 12.5rem;
     border: 1px solid #ccc;
     margin: auto;
     padding: 0.5rem;
+    position: relative;
 }
 .front-nav{
     display: flex;
@@ -12,7 +13,6 @@
 }
 .front-nav img{
     height: -webkit-fill-available;
-    padding: 0px 5px; 
 }
 .front-nav-txt p:nth-child(1){
     background: linear-gradient(119.54deg, #d4851c 0%, #e47654 100%);
@@ -46,18 +46,27 @@
     width: 18rem;
 }
 .front-details img{
-    width: 4rem;
-    height: 4.5rem;
+    width: 4.8rem;
+    height: 5.8rem;
     padding-left: 1rem;
 }
 .front-details p, .back-details p{
     padding-left: 1rem;
     padding-top: 2px;
-    font-size: 8px;
+    font-size: 12px;
+}
+.back-details p{
+    font-size: 10px;
+
 }
 .front-footer{
     text-align: center;
-    margin-top: 1.5rem;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 3px 8px;
 }
 .front-footer hr.end{
     background: red;
@@ -76,8 +85,8 @@
     width: 100px;
 }
 .back-qrcode{
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 6rem;
+    width: 6rem;
 }
 .back-footicon {
     width: 14px;
